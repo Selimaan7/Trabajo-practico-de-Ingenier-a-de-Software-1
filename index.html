@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Informes | JustiData</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nXd0a5eBIOQviFq9JlloBVP_2vvuSqTauvbjhg3eePAZ8EEVXAWTpijz2JFQgfNLAGP06jxW-pbBE7JgIFfu9XEflAp00LfOSV16psEQ23OdV7i02VZFCwWLFYHnEYgvdqyizsS6XYEKID9zPiMyH0lb0pvVb_Wzqw90HYgzh2GRt_JFvL4jBC7kAmqN5Di7wDT3J6YIRMlO5SU28z3XMAg6w5sLAXk_WDtd2dOxWqFpuHkqvPArQ_cULl155IIAzxrd_1DtXXt7IqKOqbDPCw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvMTQ5NTAzNzM5MDk4MzY2MzczMS8xNTY3NjkxMjk2MTE2NTc2NDM3L2luZGV4Lmh0bWw_ZXg9NmFlZDE5Y2ImaXM9NmFlYmM4NGImaG09ODRmYzk4Y2I5NmMwYzY0NzAwNmU1Mjg5MWVmNDdlZWJkOGI5MDgyMTliNjEzZjJjYzZmMGY3ZThiNjRjYWMxNSY"/><script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegación principal">
+        <a class="brand" href="#" data-screen="search" aria-label="JustiData, inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M16 3 27 9.4v13.2L16 29 5 22.6V9.4L16 3Z" stroke="currentColor" stroke-width="2"></path>
+              <path d="M11 16.2 14.3 19.5 21.5 12.3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>JustiData</strong>
+            <span>Gestión pericial</span>
+          </span>
+        </a>
+
+        <div class="nav-caption">GESTIÓN</div>
+        <nav class="main-nav">
+          <button class="nav-link" type="button" data-screen="search" aria-current="page">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16M4 12h16M4 18.5h16M8 3v5M16 9.5v5M10 16v5"></path></svg>
+            <span>Informes periciales</span>
+            <span class="nav-count" id="nav-report-count">0</span>
+          </button>
+          <button class="nav-link" type="button" data-screen="new">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+            <span>Cargar informe</span>
+          </button>
+        </nav>
+
+        <div class="nav-caption nav-caption-spaced">SISTEMA</div>
+        <div class="sidebar-note">
+          <span class="note-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5M12 8h.01"></path></svg>
+          </span>
+          <p>Registrá cada actuación para mantener completo el historial de la pericia.</p>
+        </div>
+
+        <div class="sidebar-bottom">
+          <span class="online-dot" aria-hidden="true"></span>
+          <span>Datos de demostración</span>
+          <span class="sidebar-version">v1.0</span>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div class="breadcrumbs"><span>Gestión pericial</span><span class="crumb-separator">/</span><span id="breadcrumb-current">Informes</span></div>
+          <div class="topbar-actions">
+            <span class="today-label" id="today-label"></span>
+            <span class="topbar-divider" aria-hidden="true"></span>
+            <button class="icon-button notification-button" type="button" aria-label="Notificaciones">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg>
+              <span class="notification-dot" aria-hidden="true"></span>
+            </button>
+            <div class="user-chip">
+              <span class="avatar" aria-hidden="true">MG</span>
+              <span class="user-copy"><strong>María González</strong><small>Operadora administrativa</small></span>
+              <svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"></path></svg>
+            </div>
+          </div>
+        </header>
+
+        <section class="page-content">
+          <div id="screen-root"></div>
+        </section>
+      </main>
+    </div>
+    <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+  </body>
+</html>
